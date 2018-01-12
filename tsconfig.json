@@ -12,6 +12,7 @@
     "baseUrl": "src",
     "paths": {
       "@ngui/map": ["./index"],
+      "@angular/*": ["../node_modules/@angular/*"],
       // workaround for https://github.com/ng2-ui/utils/issues/5
       "@ngui/utils": ["../node_modules/@ngui/utils/src/index.ts"]
     },
